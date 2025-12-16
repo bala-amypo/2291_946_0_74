@@ -1,4 +1,7 @@
 package com.example.entity;
+import jakarta.persistence.*;
+
+@Entity
 
 public class Student{
     private int ID;

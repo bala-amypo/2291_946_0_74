@@ -13,14 +13,19 @@ public int getId(){
 }
 public String getName(){
     return name;
-}public void setName(int ){
+}public void setName(int name){
    this.name = name;
 }
 public String getEmail(){
     return email;
-}public void setName(int ID){
-   this.name = name;
+}public void setEmail(int email){
+   this.email = email;
 }
-        
     
-    
+public Float getCgpa(){
+    return cgpa;
+}public void setCgpa(int cgpa){
+   this.cgpa = cgpa;
+}
+
+public Student (int ID,Strin)

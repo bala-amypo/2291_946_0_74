@@ -28,4 +28,12 @@ public Float getCgpa(){
    this.cgpa = cgpa;
 }
 
-public Student (int ID,Strin)
+public Student (int ID,String name,String email,float cgpa){
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.cgpa = cgpa;
+}
+public Student(){
+
+}

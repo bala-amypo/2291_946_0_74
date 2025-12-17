@@ -1,6 +1,15 @@
 package com.example.demo.controller;
-@Re
+@RestController
 public class StudentController(){
-    @PostMapping("/fetchdata")
-    public class
+    @Autowired
+    StudentService ser;
+
+
+    @PostMapping("/adddata")
+    public class createData(@RequestBody Student stu){
+        return stu.createData;
+    }
+
+    @GetMapping("/fetchdata")
+    public c
 }

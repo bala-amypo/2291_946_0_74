@@ -23,4 +23,5 @@ public class StudentServiceImplement implements StudentService{
     public List<Student> fetchRecord(){
         return sturep.findAll();
     }
+    
 }

@@ -11,5 +11,7 @@ public class StudentController(){
     }
 
     @GetMapping("/fetchdata")
-    public c
+    public List<Student>fetchRecord(){
+        return ser.fetchRecord();
+    }
 }

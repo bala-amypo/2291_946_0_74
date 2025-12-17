@@ -28,4 +28,9 @@ public class StudentController{
     public Optional<Student>fetchdataById(@PathVariable int id){
         return ser.fetchDataById(id);
     }
+
+    @PutMapping("/update/{id}")
+    public  fetchDataById(@PathVariable int id,@RequestBody Student stu){
+
+    }
 }   
